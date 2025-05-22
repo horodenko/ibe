@@ -1,0 +1,32 @@
+@use 'index.scss' as *;
+
+.header-container {
+  width: 100%;
+  background: $primary-background;
+  position: sticky;
+  border-bottom: $border;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.navbar-container {
+  padding: .5rem;
+  border-radius: $border-radius;
+
+  & ul {
+    list-style: none;
+  }
+}
+
+.search-bar-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: .5rem;
+  border-radius: $border-radius;
+}
