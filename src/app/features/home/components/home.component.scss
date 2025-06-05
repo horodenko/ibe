@@ -1,0 +1,27 @@
+@use '../../../../styles/variables' as *;
+
+.main-container {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  & .greetings {
+    
+    & p {
+      color: var(--white);
+    }
+
+    & .join-us-btn {
+      
+      & span {
+        
+        font-weight: 500;
+      }
+    }
+  }
+}
