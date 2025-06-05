@@ -1,0 +1,34 @@
+<header class="header-container d-flex justify-content-around align-items-center gap-2 p-5">
+  <div class="logo-container">
+    <a class="logo-link" routerLink="/">
+      <img 
+        class="logo-image" 
+        src="assets/images/church-logo.png" 
+        alt="Logo"
+      />
+    </a>
+  </div>
+
+  <div class="navbar-container">
+    <nav class="d-flex">
+      <ul class="navbar-list d-flex align-items-center">
+        @for (item of navItems; track item.path) {
+          <li class="navbar-item">
+            <a 
+              class="navbar-link" 
+              routerLinkActive="active" 
+              [routerLink]="item.path" 
+              [routerLinkActiveOptions]="{ exact: item.path === '/home' }"
+            >
+              {{ item.label }}
+            </a>
+          </li>
+        }
+      </ul>
+    </nav>
+  </div>
+  
+  <div class="search-bar-container">
+    <i class="fa fa-thin fa-magnifying-glass"></i>
+  </div>
+</header>
