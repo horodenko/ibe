@@ -1,21 +1,21 @@
-$primary-background: #e9e8e8;
-$secondary-background: #cac6c6;
-
-$title-color: #333;
-$icon-color: #555;
-$subtitle-color: #666;
-$text-color: #444;
-$button-text-color: #fff;
-
-$font-family: 'Roboto', sans-serif;
-$font-size: 1em;
-
-$title-size: 2em;
-$subtitle-size: 1.5em;
-$icon-font-size: 1.2em;
-
-$border-color: #3b3b3b;
-$border-style: solid;
-$border-width: 1px;
-$border-radius: 7px;
-$border: 1px solid #3b3b3b;
+:root {
+  --primary-background: #e9e8e8;
+  --secondary-background: #cac6c6;
+  
+  --title-color: #333;
+  --icon-color: #555;
+  --subtitle-color: #666;
+  --text-color: #444;
+  
+  --white: #fff;
+  
+  --font-family: 'Montserrat', sans-serif;
+  --large-font-size: 2em;
+  --medium-font-size: 1.5em;
+  --small-font-size: 1.2em;
+  --default-font-size: 1em;
+  
+  --border-color: #3b3b3b;
+  --border-radius: 7px;
+  --border: 1px solid #3b3b3b;
+}
